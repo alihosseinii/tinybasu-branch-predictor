@@ -1,0 +1,30 @@
+============================================================
+TinyBASU Processor Simulation Report
+============================================================
+Branch prediction algorithm          : SN
+Simulation execution time (seconds)  : 0.005452
+Static assembly instructions count   : 15
+Total cycles consumed                : 7953
+Total executed instructions          : 4131
+IPC (instructions per cycle)         : 0.5194
+
+Register contents after last cycle:
+  rx0 = 0 (0x0000)
+  rx1 = 0 (0x0000)
+  rx2 = 51 (0x0033)
+  rx3 = 50 (0x0032)
+  rx4 = 0 (0x0000)
+  rx5 = 51 (0x0033)
+  rx6 = 51 (0x0033)
+  rx7 = 51 (0x0033)
+Final PC value                       : 15
+
+Number of stalls due to branches     : 1274
+Total conditional branches executed  : 1325
+Number of correct predictions        : 51
+Branch prediction accuracy (%)       : 3.85
+Estimated cycles without prediction  : 8106
+Speedup over no prediction           : 1.0192x
+
+Execution status                     : normal program termination
+============================================================
